@@ -1,0 +1,6 @@
+/* Universal Selector  */
+/* this selector will change every elements in html file. */
+
+*{
+    color: aqua;
+}

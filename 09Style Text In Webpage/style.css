@@ -1,0 +1,11 @@
+.align{
+    text-align: justify;
+}
+
+.decoration{
+    /* text-decoration: line-through; */
+    text-transform: capitalize;
+    text-shadow: 5px 2px green;
+}
+.decoration div, p{
+    text-indent: 50px;

@@ -1,0 +1,5 @@
+/* This selection work in the immidiate item after div tag */
+
+div + p{
+    color: red;
+}

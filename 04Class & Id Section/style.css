@@ -1,0 +1,13 @@
+/* class start with .  */
+/* we can use class as much as we want in html file  */
+
+.heading-style{
+    color: aqua;
+}
+
+/* Id start with #  */
+/* we can use id just onetime in html file  */
+
+#para-style{
+    color: brown;
+}

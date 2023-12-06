@@ -1,0 +1,19 @@
+#section-1{
+    background-color: aqua;
+}
+
+#section-1 h1 b{
+    color: red;
+}
+
+#section-1 p{
+    color: tomato;
+}
+
+.style1{
+    color: black;
+}
+
+.style2{
+    font-size: 410%;
+}
