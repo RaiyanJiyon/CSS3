@@ -1,0 +1,14 @@
+#section-1{
+    margin: 10px 5px 10px 5px;
+    width: 200px;
+    background-color: orange;
+}
+
+#section-2{
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    width: 200px;
+    background-color: aqua;
+}

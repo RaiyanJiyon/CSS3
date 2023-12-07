@@ -1,0 +1,33 @@
+/* .demo div,  p:nth-child(odd){
+    background-color: black;
+    color: rebeccapurple;
+} */
+
+ul li:nth-child(even){
+    background-color: black;
+    color: aqua;
+    max-width: 50px;
+}
+
+ol li:first-of-type{
+    background-color: black;
+    color: aqua;
+    max-width: 50px;
+}
+
+::selection{
+    color: red;
+    background-color: sienna;
+}
+
+.demo::before{
+    content: "";
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+}
+
+
+input::placeholder{
+    color: aqua;
+}

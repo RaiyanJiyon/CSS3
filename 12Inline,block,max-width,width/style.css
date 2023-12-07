@@ -1,0 +1,18 @@
+h1{
+    /* this is block elements who capture full size  */
+    background-color: green;
+    
+    /* but we can change block elements to inline elemnet like this -  */
+    display: inline;
+}
+
+.e1{
+    width: 600px;
+    margin: auto;
+    border: 5px blue solid;
+}
+.e2{
+    max-width: 600px;
+    margin: auto;
+    border: 5px blue solid;
+}

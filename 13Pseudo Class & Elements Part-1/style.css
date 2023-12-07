@@ -1,0 +1,40 @@
+/* a:hover{
+    color: green;
+} */
+
+a.class-1:hover{
+    color: red;
+}
+
+input{
+    padding: 5px;
+    font-size: 1rem;
+    width: 150px;
+}
+
+input:hover{
+    background-color: aqua;
+}
+
+table, thead, tbody, tr, th, td{
+    border: 1px solid black;
+}
+
+tr:nth-child(odd){
+    background-color: red;
+}
+
+/* This is Psedo class  */
+p:hover{
+    color: aqua;
+}
+
+/* This is Psedo elements  */
+p::first-letter{
+    color: chartreuse;
+    font-size: 1.5rem;
+}
+
+p::after{
+    content: ">";
+}

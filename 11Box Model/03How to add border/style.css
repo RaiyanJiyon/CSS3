@@ -1,0 +1,14 @@
+h1, h2, h3{
+    border-width: 5px;
+    border-color: green;
+    border-style: dotted;
+}
+
+p{
+    border-top: 5px black dashed;
+    border-right: 5px green dashed;
+    border-bottom: 5px red dashed;
+    border-left: 5px orange dashed;
+    width: 100px;
+    /* border-radius: 50px; */
+}
