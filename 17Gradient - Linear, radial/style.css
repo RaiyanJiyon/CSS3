@@ -1,0 +1,11 @@
+.gradient-style{
+    width: 400px;
+    height: 200px;
+    background-image: linear-gradient(to right, red, blue, orange, green, hotpink);
+}
+
+/* .gradient-style2{
+    width: 500px;
+    height: 200px;
+    background-image: linear-gradient(circle, yellow, green, red, blue, aqua, pink);
+} */

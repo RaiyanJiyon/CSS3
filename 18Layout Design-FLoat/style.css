@@ -1,0 +1,18 @@
+#style-sheet1{
+    float: left;
+    background-color: red;
+}
+
+#style-sheet2{
+    float: right;
+    background-color: yellow;
+}
+
+#Layout-design{
+    clear: both;
+}
+
+#style-sheet3{
+    
+    background-color: hotpink;
+}

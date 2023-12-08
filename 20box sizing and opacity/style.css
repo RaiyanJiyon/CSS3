@@ -1,0 +1,24 @@
+.div1{
+    width: 500px;
+    height: 200px;
+    background-color: green;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 10px gray solid;
+}
+
+.div2{
+    width: 500px;
+    height: 200px;
+    background-color: aqua;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    opacity: 0.5;
+}
+
+img:hover{
+    opacity: 1;
+}
