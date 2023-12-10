@@ -1,0 +1,31 @@
+@media screen and (max-width:600px) {
+    
+    :root{
+        --primary-color1: green;
+        --primary-color2: red;
+    }
+}
+
+div{
+    width: 200px;
+    height: 200px;
+}
+
+.div1{
+    /* in-case if any browser is not support variable color then this background color will show  */
+    background: green; 
+    background-color: var(--primary-color1, green);
+    /* background-color: black; */
+    position: absolute;
+    z-index: 1;
+}
+
+.div2{
+    background: red;
+    background-color: var(--primary-color2, red);
+    /* background-color: red; */
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    z-index: -2px;
+}

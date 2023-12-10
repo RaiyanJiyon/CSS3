@@ -1,0 +1,29 @@
+/* Overflow property check  */
+div p{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    overflow: scroll;
+}
+
+/* Tooltip exploring */
+
+.tooltip{
+    position: relative;
+}
+
+.tooltip .tooltip-text{
+    visibility: hidden;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    z-index: 1
+}
+
+.tooltip:hover .tooltip-text{
+    visibility: visible;
+}
