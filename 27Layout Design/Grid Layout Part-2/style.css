@@ -1,7 +1,26 @@
+.item-1{grid-area: header;}
+.item-2{grid-area: menus;}
+.item-3{grid-area: Main;}
+.item-4{grid-area: Aside;}
+.item-5{grid-area: Footer;}
+
+
 .grid-container{
     display: grid;
+    /* grid-template-columns: auto auto auto auto auto auto; */
+    grid-template-areas: 
+        'header header header header header header'
+        'menus Main Main Main Aside Aside'
+        'menus Footer Footer Footer Footer Footer'
+    
+    ;
 }
 
 .grid-container > div{
-    
+    background-color: gray;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 1.5rem;
 }
+
+
