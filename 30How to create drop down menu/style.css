@@ -1,0 +1,40 @@
+.nav-bar{
+    background-color: #40868b;
+    padding: 1% 7%;
+    text-align: center;
+}
+
+.nav-bar a{
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.drop-container{
+    display: inline;
+    position: relative;
+}
+
+.drop-content{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    background-color: #40868b;
+    text-align: left;
+    min-width: 100px;
+    display: none;
+}
+
+.drop-content a{
+    display: block;
+}
+
+.drop-content a:hover{
+    color: hotpink;
+}
+
+.drop-container:hover .drop-content{
+    display: block;
+}
