@@ -1,0 +1,29 @@
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td{
+    border: 2px solid black;   
+    text-align: center;
+    padding: 5px;
+}
+
+th{
+    background-color: darkcyan;
+    color: white;
+    height: 30px;
+}
+
+tr:nth-child(even){
+    background-color: hotpink;
+}
+
+tr:nth-child(odd){
+    background-color:yellowgreen;
+}
+
+tr:hover{
+    background-color:chocolate;
+}

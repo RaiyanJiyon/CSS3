@@ -1,0 +1,18 @@
+input[type=text]{
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: 3px solid orangered;
+    border-radius: 5px;
+}
+
+#search{
+    border-image: url("images/search.png");
+    background-repeat: no-repeat;
+    background-position: 8px 15px;
+    font-size: 1rem;
+    padding: 15px 40px;
+    border-color: red;
+}
